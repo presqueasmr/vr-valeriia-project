@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class fadeScreen : MonoBehaviour
+public class FadeScreen : MonoBehaviour
 {
     public bool fadeOnStart = true;
     public float fadeDuration = 2;
+    public float transitionDuration = 4;
     public Color fadeColor;
     private Renderer rend;
-    // Start is called before the first frame update
+
+
     void Start()
     {
         rend = GetComponent<Renderer>();
@@ -16,7 +19,8 @@ public class fadeScreen : MonoBehaviour
         {
             FadeIn();  
         }
-                  
+
+
     }
 
     public void FadeIn()
@@ -52,5 +56,4 @@ public class fadeScreen : MonoBehaviour
             rend.material.SetColor("_Color", newColor2);
 
     }
-    
 }
