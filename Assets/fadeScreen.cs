@@ -7,7 +7,6 @@ public class FadeScreen : MonoBehaviour
 {
     public bool fadeOnStart = true;
     public float fadeDuration = 2;
-    public float transitionDuration = 4;
     public Color fadeColor;
     private Renderer rend;
 

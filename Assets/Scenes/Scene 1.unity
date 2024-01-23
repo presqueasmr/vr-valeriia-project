@@ -1149,7 +1149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeOnStart: 1
   fadeDuration: 2
-  transitionDuration: 4
   fadeColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1539952860
 GameObject:
