@@ -11,7 +11,7 @@ public class SubtitleTrackMixer : PlayableBehaviour
         TextMeshProUGUI text = playerData as TextMeshProUGUI;
         string currentText = "";
         float currentAlpha = 0f;
-
+        //Debug.Log(playable.GetTime());
         if (!text)
         {
             return;
