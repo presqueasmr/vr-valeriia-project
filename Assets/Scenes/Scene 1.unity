@@ -163,7 +163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: 'Dans un paradis harmonieux que rien ne semblait troubler. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -172,8 +172,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
-  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -256,8 +256,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46, y: -176}
-  m_SizeDelta: {x: 400.5, y: 50}
+  m_AnchoredPosition: {x: 16, y: -176}
+  m_SizeDelta: {x: 450, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &185718360
 GameObject:
@@ -504,6 +504,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &416348016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1024454071672728092, guid: 14e8faf58eb641343adfba51cd1d2513,
+    type: 3}
+  m_PrefabInstance: {fileID: 1703055350}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3d29b156ea3bf4d9290ebdcb275842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &758107772
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,8 +545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4952b632795712a4daa4dffc383918ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeScreen: {fileID: 0}
-  sceneAnimation: {fileID: 0}
+  fadeScreen: {fileID: 416348016}
+  currentTimeline: {fileID: 1422478600}
   levelToLoad: Scene 0
 --- !u!4 &758107774
 Transform:
@@ -1418,7 +1430,7 @@ PrefabInstance:
     - target: {fileID: 8172339759407590991, guid: 14e8faf58eb641343adfba51cd1d2513,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
