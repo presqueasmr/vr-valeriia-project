@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e5a1bcdc775846c9bf160eaa718c49e
+guid: a284c3c26a7544a16ba0bc4d7959d5f4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,19 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: bois poteau
+    second: {fileID: 8207550458556318017, guid: 2874bffbdf10f46bfa16dd99ebf12015,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: sol
     second: {fileID: 2100000, guid: d922c45213a0e4dd09264582ce9d89e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_ble
+    second: {fileID: 2100000, guid: 70d4cb827944441beb2826491d6abd4d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
