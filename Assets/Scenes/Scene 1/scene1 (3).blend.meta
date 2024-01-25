@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ddb1f1a1d55b4e9cae304a8cf8ed96f
+guid: 2378d768066f845398bbf97715b313b8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,15 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: bois poteau
-    second: {fileID: 2100000, guid: d6ffc66fae0634606aaa6697d8e134a4, type: 2}
+      name: "phares arri\xE8re.001"
+    second: {fileID: -4662358671035930964, guid: 61f4179819fa8224db170c14f4a23791,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phares avant.001
+    second: {fileID: -7242345001744415474, guid: 5ddb1f1a1d55b4e9cae304a8cf8ed96f,
+      type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
