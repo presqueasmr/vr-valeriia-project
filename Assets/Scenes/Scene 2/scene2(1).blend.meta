@@ -7,6 +7,12 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: "phares arri\xE8re"
+    second: {fileID: -4662358671035930964, guid: 5ddb1f1a1d55b4e9cae304a8cf8ed96f,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: phares avant
     second: {fileID: -4547394400096519999, guid: c8eb75704dd78c64a9065c5ef17c4d80,
       type: 3}

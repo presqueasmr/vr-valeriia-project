@@ -3,7 +3,19 @@ guid: 4aebf9ff5486f8e43a9f800ca134d4e0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "phares arri\xE8re.001"
+    second: {fileID: -4662358671035930964, guid: 61f4179819fa8224db170c14f4a23791,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phares avant.001
+    second: {fileID: -7242345001744415474, guid: 5ddb1f1a1d55b4e9cae304a8cf8ed96f,
+      type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
