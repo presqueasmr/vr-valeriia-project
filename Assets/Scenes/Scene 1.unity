@@ -863,7 +863,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a3d29b156ea3bf4d9290ebdcb275842, type: 3}
-<<<<<<< HEAD
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &429664110
@@ -5696,10 +5695,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
-=======
-  m_Name:
-  m_EditorClassIdentifier:
->>>>>>> 67108028cf397c252d17009478974b069c386ad0
 --- !u!1 &758107772
 GameObject:
   m_ObjectHideFlags: 0
