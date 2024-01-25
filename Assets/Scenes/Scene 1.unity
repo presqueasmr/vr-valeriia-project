@@ -519,7 +519,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: -176}
+  m_AnchoredPosition: {x: 16, y: -147}
   m_SizeDelta: {x: 450, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &185718360
@@ -808,8 +808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4952b632795712a4daa4dffc383918ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeScreen: {fileID: 0}
-  sceneAnimation: {fileID: 0}
+  fadeScreen: {fileID: 416348016}
+  currentTimeline: {fileID: 1422478600}
   levelToLoad: Scene 2
 --- !u!4 &758107774
 Transform:
@@ -1034,7 +1034,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 2138959210}
-  m_PlaneDistance: 1
+  m_PlaneDistance: 0.5
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1526,6 +1526,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7941932275388486849, guid: 14e8faf58eb641343adfba51cd1d2513,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941932275388486849, guid: 14e8faf58eb641343adfba51cd1d2513,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941932275388486849, guid: 14e8faf58eb641343adfba51cd1d2513,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941932275388486849, guid: 14e8faf58eb641343adfba51cd1d2513,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172339759407590991, guid: 14e8faf58eb641343adfba51cd1d2513,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8172339759407590991, guid: 14e8faf58eb641343adfba51cd1d2513,
         type: 3}
       propertyPath: m_IsActive
@@ -1536,7 +1561,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 648574278628703710, guid: 14e8faf58eb641343adfba51cd1d2513,
         type: 3}
-      insertIndex: -1
+      insertIndex: 0
       addedObject: {fileID: 1049400558}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14e8faf58eb641343adfba51cd1d2513, type: 3}
