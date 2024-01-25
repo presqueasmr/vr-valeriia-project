@@ -1,27 +1,9 @@
 fileFormatVersion: 2
-guid: 7950af5863a5cec4b834c34ba77edd3e
+guid: 76afa3d5e17b8954ab2c82364f0d58c6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: phares avant
-    second: {fileID: -4547394400096519999, guid: c8eb75704dd78c64a9065c5ef17c4d80,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: route
-    second: {fileID: -6478536213147159724, guid: 4aebf9ff5486f8e43a9f800ca134d4e0,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: trottoir
-    second: {fileID: 9092563470539665174, guid: 4aebf9ff5486f8e43a9f800ca134d4e0,
-      type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
