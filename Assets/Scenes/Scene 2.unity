@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.03647605, g: 0.033094473, b: 0.023860931, a: 1}
+  m_IndirectSpecularColor: {r: 0.004332588, g: 0.0030717081, b: 0.001958113, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -235,7 +235,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: -1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 120
@@ -584,6 +584,8 @@ PlayableDirector:
   - key: {fileID: -8833049351521656865, guid: fa25e2a2346fb4e788aea393a23c59ae, type: 2}
     value: {fileID: 0}
   - key: {fileID: 8767936247031628414, guid: fa25e2a2346fb4e788aea393a23c59ae, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3018872672201541541, guid: fa25e2a2346fb4e788aea393a23c59ae, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -7139,7 +7141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "et le vide en notre \xE2me."
+  m_text: plein d'incertitudes,
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7166,8 +7168,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

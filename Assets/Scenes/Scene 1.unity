@@ -426,7 +426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dans un paradis harmonieux que rien ne semblait troubler. '
+  m_text: "au manteau d'ombres et de d\xE9sastres. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -435,8 +435,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3170893823
-  m_fontColor: {r: 1, g: 1, b: 1, a: 0.7372549}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -453,8 +453,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6372,7 +6372,7 @@ PlayableDirector:
   - key: {fileID: -2411580192697689852, guid: e40dd8168f7f4ac4080e89e33c212e72, type: 2}
     value: {fileID: 0}
   - key: {fileID: -5677502308865946966, guid: e40dd8168f7f4ac4080e89e33c212e72, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 467200898}
   - key: {fileID: 2162715589179521988, guid: e40dd8168f7f4ac4080e89e33c212e72, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
@@ -6534,7 +6534,7 @@ PrefabInstance:
     - target: {fileID: 8172339759407590991, guid: 14e8faf58eb641343adfba51cd1d2513,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
