@@ -12,6 +12,24 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: ampoule
+    second: {fileID: 8072725635746596830, guid: 2378d768066f845398bbf97715b313b8,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carrosserie voitures
+    second: {fileID: 6233421988058478318, guid: 2378d768066f845398bbf97715b313b8,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampadaire
+    second: {fileID: 2721283067253232585, guid: 2378d768066f845398bbf97715b313b8,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: "phares arri\xE8re"
     second: {fileID: -4662358671035930964, guid: a284c3c26a7544a16ba0bc4d7959d5f4,
       type: 3}
@@ -24,14 +42,31 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: roues voitures
+    second: {fileID: 2096026645098734466, guid: 61f4179819fa8224db170c14f4a23791,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: route
-    second: {fileID: -6478536213147159724, guid: 4aebf9ff5486f8e43a9f800ca134d4e0,
+    second: {fileID: 1089945689335020087, guid: 2378d768066f845398bbf97715b313b8,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sieges
+    second: {fileID: -2717406462736648453, guid: 2378d768066f845398bbf97715b313b8,
       type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: trottoir
-    second: {fileID: 9092563470539665174, guid: 4aebf9ff5486f8e43a9f800ca134d4e0,
+    second: {fileID: 2100000, guid: d922c45213a0e4dd09264582ce9d89e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vitres voitures
+    second: {fileID: -3056923128711529425, guid: a284c3c26a7544a16ba0bc4d7959d5f4,
       type: 3}
   materials:
     materialImportMode: 2
