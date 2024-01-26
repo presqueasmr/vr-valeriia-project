@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Clignotants
+    second: {fileID: 2100000, guid: 84340f837de3d2149ae146191c863b42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: "phares arri\xE8re"
-    second: {fileID: -4662358671035930964, guid: 5ddb1f1a1d55b4e9cae304a8cf8ed96f,
+    second: {fileID: -4662358671035930964, guid: a284c3c26a7544a16ba0bc4d7959d5f4,
       type: 3}
   - first:
       type: UnityEngine:Material
